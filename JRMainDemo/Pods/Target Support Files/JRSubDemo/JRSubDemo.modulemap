@@ -1,6 +1,5 @@
 framework module JRSubDemo {
   umbrella header "JRSubDemo-umbrella.h"
-  header "JRShitTool.h"
 
   export *
   module * { export * }

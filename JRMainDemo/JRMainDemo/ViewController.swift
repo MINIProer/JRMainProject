@@ -26,6 +26,9 @@ class ViewController: UIViewController {
             make.top.equalTo(self.view).offset(100)
             make.size.equalTo(CGSizeMake(10, 10))
         }
+        
+        let st = JRShitTool()
+        st.sayShit()
     }
 
 }

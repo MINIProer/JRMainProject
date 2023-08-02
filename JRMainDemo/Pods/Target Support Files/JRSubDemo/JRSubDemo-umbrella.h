@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JRShitTool.h"
 
 FOUNDATION_EXPORT double JRSubDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char JRSubDemoVersionString[];

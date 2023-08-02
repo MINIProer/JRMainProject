@@ -18,7 +18,10 @@
     "git": "https://github.com/MINIProer/JRSubProject.git",
     "tag": "0.0.1"
   },
-  "source_files": "JRSubDemo/*.swift",
+  "source_files": [
+    "JRSubDemo/**/*.swift",
+    "JRSubDemo/**/*.{h,m}"
+  ],
   "frameworks": [
     "UIKit",
     "Foundation"

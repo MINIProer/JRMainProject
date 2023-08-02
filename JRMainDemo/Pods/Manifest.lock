@@ -1,7 +1,14 @@
 PODS:
   - JRSubDemo (0.0.1):
     - SnapKit
+    - UMCCommonLog
+    - UMCommon
+    - UMDevice
   - SnapKit (5.6.0)
+  - UMCCommonLog (2.0.2)
+  - UMCommon (7.4.1):
+    - UMDevice
+  - UMDevice (3.1.0)
 
 DEPENDENCIES:
   - JRSubDemo (from `/Users/jiangshulun/JRMainSubDemo/JRSubProject/JRSubDemo`)
@@ -9,14 +16,20 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - SnapKit
+    - UMCCommonLog
+    - UMCommon
+    - UMDevice
 
 EXTERNAL SOURCES:
   JRSubDemo:
     :path: "/Users/jiangshulun/JRMainSubDemo/JRSubProject/JRSubDemo"
 
 SPEC CHECKSUMS:
-  JRSubDemo: 1792a3575a40eb2d41c9e3b5d9632402f8f5d9bf
+  JRSubDemo: 674d873f26ee1ccf85c4ccf569829ec0b453d7b8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  UMCCommonLog: bea707e50c85cef4b0eb47cc5c7226bb843245ca
+  UMCommon: 47e0b53f6a36568e958a5abd005ed7577fcac9ad
+  UMDevice: 9ef8045b59e0479cff7062915c879a1af46fa094
 
 PODFILE CHECKSUM: 168db1d83cb1539de16e074ab1326d0f8f9fd396
 

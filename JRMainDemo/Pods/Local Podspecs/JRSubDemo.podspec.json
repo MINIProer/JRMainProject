@@ -24,10 +24,24 @@
   ],
   "frameworks": [
     "UIKit",
-    "Foundation"
+    "Foundation",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "libs",
+    "libsqlite3"
   ],
+  "static_framework": true,
   "dependencies": {
     "SnapKit": [
+
+    ],
+    "UMCommon": [
+
+    ],
+    "UMDevice": [
+
+    ],
+    "UMCCommonLog": [
 
     ]
   },

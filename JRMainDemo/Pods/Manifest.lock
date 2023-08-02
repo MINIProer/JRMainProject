@@ -1,15 +1,22 @@
 PODS:
-  - JRSubDemo (0.0.1)
+  - JRSubDemo (0.0.1):
+    - SnapKit
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - JRSubDemo (from `/Users/jiangshulun/JRMainSubDemo/JRSubProject/JRSubDemo`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   JRSubDemo:
     :path: "/Users/jiangshulun/JRMainSubDemo/JRSubProject/JRSubDemo"
 
 SPEC CHECKSUMS:
-  JRSubDemo: 16777286c4fd665b6fa228f89d0a07d07c6c4236
+  JRSubDemo: 6b9ab77df6df643cad9e3bb3d0e94b468a2de551
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: 168db1d83cb1539de16e074ab1326d0f8f9fd396
 

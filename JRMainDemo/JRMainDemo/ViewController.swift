@@ -14,7 +14,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let fuck = JRFuckTool()
+        let f = JRFuckTool()
+        f.caonima()
+        
+        let fview = UIView()
+        fview.backgroundColor = UIColor.cyan
+        self.view.addSubview(fview)
+        
+        fview.snp.makeConstraints { make in
+            make.left.equalTo(self.view).offset(100)
+            make.top.equalTo(self.view).offset(100)
+            make.size.equalTo(CGSizeMake(10, 10))
+        }
     }
 
 }

@@ -23,5 +23,10 @@
     "UIKit",
     "Foundation"
   ],
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  },
   "swift_version": "5.0"
 }

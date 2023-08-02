@@ -1,8 +1,8 @@
 {
   "name": "JRSubDemo",
   "version": "0.0.1",
-  "summary": "A short description of JRSubDemo.",
-  "description": "这是项目的子工程文件",
+  "summary": "这是项目的子工程文件",
+  "description": "hahahah这是项目的子工程文件lskdjflksjlkdjfk",
   "homepage": "https://github.com/MINIProer/JRSubProject.git",
   "license": {
     "type": "MIT"
@@ -13,9 +13,15 @@
   "platforms": {
     "ios": "13.0"
   },
+  "swift_versions": "5.0",
   "source": {
     "git": "https://github.com/MINIProer/JRSubProject.git",
     "tag": "0.0.1"
   },
-  "source_files": "JRSubDemo/*.swift"
+  "source_files": "JRSubDemo/*.swift",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "swift_version": "5.0"
 }

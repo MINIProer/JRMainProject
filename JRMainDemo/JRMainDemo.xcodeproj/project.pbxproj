@@ -13,9 +13,11 @@
 		161622892A79F84A00844818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161622872A79F84A00844818 /* Main.storyboard */; };
 		1616228B2A79F84C00844818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1616228A2A79F84C00844818 /* Assets.xcassets */; };
 		1616228E2A79F84C00844818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1616228C2A79F84C00844818 /* LaunchScreen.storyboard */; };
+		9EC46C9113E2B18F80A69031 /* Pods_JRMainDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F453240D6A08B572E8B56E40 /* Pods_JRMainDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05C400DE043C44A64D0D274B /* Pods-JRMainDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRMainDemo.release.xcconfig"; path = "Target Support Files/Pods-JRMainDemo/Pods-JRMainDemo.release.xcconfig"; sourceTree = "<group>"; };
 		1616227E2A79F84A00844818 /* JRMainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRMainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		161622812A79F84A00844818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		161622832A79F84A00844818 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		1616228A2A79F84C00844818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1616228D2A79F84C00844818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1616228F2A79F84C00844818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812B38FF248633F3D45F2776 /* Pods-JRMainDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRMainDemo.debug.xcconfig"; path = "Target Support Files/Pods-JRMainDemo/Pods-JRMainDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F453240D6A08B572E8B56E40 /* Pods_JRMainDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRMainDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC46C9113E2B18F80A69031 /* Pods_JRMainDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				161622802A79F84A00844818 /* JRMainDemo */,
 				1616227F2A79F84A00844818 /* Products */,
+				175F57FBB52F39184E3C889C /* Pods */,
+				AFE723BA98B7D5DFB53CF8ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = JRMainDemo;
 			sourceTree = "<group>";
 		};
+		175F57FBB52F39184E3C889C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				812B38FF248633F3D45F2776 /* Pods-JRMainDemo.debug.xcconfig */,
+				05C400DE043C44A64D0D274B /* Pods-JRMainDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AFE723BA98B7D5DFB53CF8ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F453240D6A08B572E8B56E40 /* Pods_JRMainDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 161622922A79F84C00844818 /* Build configuration list for PBXNativeTarget "JRMainDemo" */;
 			buildPhases = (
+				63712DBE3BA3DEBB4DBB643B /* [CP] Check Pods Manifest.lock */,
 				1616227A2A79F84A00844818 /* Sources */,
 				1616227B2A79F84A00844818 /* Frameworks */,
 				1616227C2A79F84A00844818 /* Resources */,
+				F2035394110E5756F68CA4CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63712DBE3BA3DEBB4DBB643B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JRMainDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2035394110E5756F68CA4CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JRMainDemo/Pods-JRMainDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JRMainDemo/Pods-JRMainDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JRMainDemo/Pods-JRMainDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1616227A2A79F84A00844818 /* Sources */ = {
@@ -282,6 +350,7 @@
 		};
 		161622932A79F84C00844818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812B38FF248633F3D45F2776 /* Pods-JRMainDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,7 +364,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +380,7 @@
 		};
 		161622942A79F84C00844818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C400DE043C44A64D0D274B /* Pods-JRMainDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,7 +394,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

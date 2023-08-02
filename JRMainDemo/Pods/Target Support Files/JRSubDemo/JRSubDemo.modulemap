@@ -1,0 +1,6 @@
+framework module JRSubDemo {
+  umbrella header "JRSubDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

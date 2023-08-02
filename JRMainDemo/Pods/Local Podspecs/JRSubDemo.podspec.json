@@ -1,0 +1,21 @@
+{
+  "name": "JRSubDemo",
+  "version": "0.0.1",
+  "summary": "A short description of JRSubDemo.",
+  "description": "这是项目的子工程文件",
+  "homepage": "https://github.com/MINIProer/JRSubProject.git",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "jiangshulun": "raylnjiang@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/MINIProer/JRSubProject.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "JRSubDemo/*.swift"
+}

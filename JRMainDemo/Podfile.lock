@@ -1,0 +1,16 @@
+PODS:
+  - JRSubDemo (0.0.1)
+
+DEPENDENCIES:
+  - JRSubDemo (from `/Users/jiangshulun/JRMainSubDemo/JRSubProject/JRSubDemo`)
+
+EXTERNAL SOURCES:
+  JRSubDemo:
+    :path: "/Users/jiangshulun/JRMainSubDemo/JRSubProject/JRSubDemo"
+
+SPEC CHECKSUMS:
+  JRSubDemo: 732f41ff88c94e749bebdfd96d5e61fb3f5166f3
+
+PODFILE CHECKSUM: 168db1d83cb1539de16e074ab1326d0f8f9fd396
+
+COCOAPODS: 1.12.1

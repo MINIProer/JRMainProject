@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import JRSubDemo
 
 class ViewController: UIViewController {
 
